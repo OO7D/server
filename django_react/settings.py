@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'closets.apps.ClosetsConfig',
     'photos.apps.PhotosConfig',
     'rest_framework',
+    'frontend',
 ]
 
 MIDDLEWARE = [

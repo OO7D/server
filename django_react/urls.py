@@ -21,4 +21,5 @@ urlpatterns = [
     path('users/',include('users.urls')),
     path('photos/',include('photos.urls')),
     path('closets/',include('closets.urls')),
+    path('', include('frontend.urls')),
 ]
